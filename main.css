@@ -3,15 +3,22 @@
     height: 100px;
     position: relative;
     width: 100px;
-    margin: auto;
   }
   .face {
     font-family: 'courier new', serif;
     font-size: 2.5em;
     font-weight: bold;
-    left: 50%;
+    left: 100px;
     position: absolute;
-    top: 50%;
+    top: 100px;
     transform: translate(-50%, -60%) rotate(90deg);
-    margin: auto;
   }
+  div{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    margin-top: -50px; 
+    margin-left: -50px; 
+  }
+
+  
