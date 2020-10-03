@@ -11,14 +11,18 @@
             }        
             function normal(){
                 face.innerHTML=":|";
+            }
+            function fuera_ojo() {
+               
+               face.innerHTML = ".)";
             }    
         </script>
     </head>
     <body>
         <div class="page">
-            <div class="head" onmouseover="sonrisa()" onmouseout="normal()">
+            <div class="head" onmouseover="sonrisa()" onmouseout="normal()" onclick="fuera_ojo()">
                 <div id="face">:|</div>                       
             </div>            
-        </div>        
+        </div>                          
     </body>
 </html>
