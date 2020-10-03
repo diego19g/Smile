@@ -5,12 +5,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="main.css">
         <title>Face time!</title>
+        <script type="text/javascript">
+            function sonrisa(){
+                face.innerHTML=":)";
+            }        
+            function normal(){
+                face.innerHTML=":|";
+            }
+            function fuera_ojo() {
+               
+               face.innerHTML = ".)";
+            }    
+        </script>
     </head>
     <body>
         <div class="page">
-            <div class="head">
-                <div class="face">:|</div>
-            </div>
-        </div>        
+            <div class="head" onmouseover="sonrisa()" onmouseout="normal()" onclick="fuera_ojo()">
+                <div id="face">:|</div>                       
+            </div>            
+        </div>                          
     </body>
 </html>
